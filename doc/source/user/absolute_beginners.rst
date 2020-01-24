@@ -677,7 +677,7 @@ run::
 
 If you wanted to split your array after the third and fourth column, you'd run::
 
-  >>> np.hsplit(array,(3, 4))
+  >>> np.hsplit(x, (3, 4))
   [array([[1, 2, 3],
           [13, 14, 15]]), array([[ 4],
           [16]]), array([[ 5, 6, 7, 8, 9, 10, 11, 12],
